@@ -105,7 +105,7 @@ print(returned_job.studio_url)
 ![Job Concluído](prints/job_overview.png)
 
 ### Métricas Registradas pelo MLflow
-![Métricas](prints/metricas.png)
+![Métricas](prints/Metricas.png)
 
 ### Logs de Execução
 ![Logs](prints/azure-logs.png)
