@@ -1,0 +1,19 @@
+Projeto: Previsão de Vendas de Sorvete com Machine Learning
+
+Cenário:
+A sorveteria Gelato Mágico precisa prever quantos sorvetes serão vendidos
+com base na temperatura do dia para otimizar a produção e reduzir desperdícios.
+
+Hipótese:
+Existe uma forte correlação linear entre a temperatura ambiente e a
+quantidade de sorvetes vendidos diariamente.
+
+Abordagem:
+- Modelo de Regressão Linear (scikit-learn)
+- Registro de experimentos com MLflow autolog
+- Treinamento em cloud com Azure Machine Learning
+- Dataset: histórico de temperaturas e vendas diárias de 2025
+
+Resultado esperado:
+Modelo capaz de prever vendas com alta acurácia (R² > 0.95)
+para auxiliar no planejamento diário de produção.
