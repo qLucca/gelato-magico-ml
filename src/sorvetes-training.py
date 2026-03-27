@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 print("Loading Data...")
-sorvetes = pd.read_csv('Vendas de Sorvete.csv', sep=';')  # ← fix aqui
+sorvetes = pd.read_csv('Vendas de Sorvete.csv', sep=';')
 
 print("Colunas:", sorvetes.columns.tolist())
 print(sorvetes.head())
